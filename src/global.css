@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #fff;
+    color: #404040;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    justify-content: space-around;
+    background: #404040;
+    align-items: center;
+    color: #fff;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    color: #fff;
+    margin-right: 1rem;
+    transition: all 0.3s;
+}
+
+nav ul li a:hover{
+    color: #e78c03;
+}
